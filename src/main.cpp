@@ -14,10 +14,10 @@
 #include "time.h"
 #include "string.h"
 
-const char *serverName = "http://192.168.8.103:8000/api/v1/device";
-String deviceToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyNzEwMTk5NiIsIm5hbWUiOiJwYXNhaW5zLW1hbnRhZi1wdWxlamFqYXIifQ.teHVLP8-xvxx5IcPlq3jtvFxO5FijmTO1UXaFYKdcx0";
-const char *ssid = "XLGO-7218";
-const char *password = "91609300";
+const char *serverName = "host.server";
+String deviceToken = "token";
+const char *ssid = "SSID";
+const char *password = "password";
 
 const char *ntpServer = "pool.ntp.org";
 const long gmtOffset_sec = 25200;

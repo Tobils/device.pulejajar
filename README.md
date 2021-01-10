@@ -1,11 +1,15 @@
 # ESP32
 
+## Config
+
 ```bash
 # build and upload clean, etc
 python -m platformio run --target upload
 # serial monitor
 python -m platformio device monitor --baud 115200
 ```
+
+## Contoh data yang dikirim
 
 ```json
 // post data body
